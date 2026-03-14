@@ -1,0 +1,12 @@
+session_name: main
+windows:
+- window_name: main
+  layout: main-horizontal
+  shell_command_before:
+    - cd ~
+  panes:
+    - shell_comannd:
+      - ls -al
+      focus: true
+    - null
+    - null
