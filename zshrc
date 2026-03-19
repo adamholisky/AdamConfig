@@ -70,7 +70,11 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+	git
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,4 +112,5 @@ export DISABLE_AUTO_TITLE='true'
 
 export PATH=$PATH:/home/adam/.local/bin
 
-eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/oh-my-posh/themes/rudolfs-dark.omp.json)"
+eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/singles/adam_theme.omp.json)"
+#eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
