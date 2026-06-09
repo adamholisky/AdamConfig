@@ -1,12 +1,12 @@
 session_name: main
 windows:
 - window_name: main
-  layout: main-horizontal
-  shell_command_before:
-    - cd ~
+  layout: main-vertical
   panes:
     - shell_comannd:
-      - ls -al
+      - cmd: clear
       focus: true
-    - null
-    - null
+    - shell_comannd:
+      - cmd: clear
+    - shell_comannd:
+      - cmd: clear
