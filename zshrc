@@ -90,7 +90,10 @@ alias vim=nvim
 
 export DISABLE_AUTO_TITLE='true'
 
-export PATH=$PATH:/home/adam/.local/bin
+export PATH=$PATH:/home/adam/.local/bin:/home/adam/code/Retro68-build/toolchain//bin
+
+## Adam Things
+source /usr/share/nvm/init-nvm.sh
 
 eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/singles/adam_theme.omp.json)"
 #eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
