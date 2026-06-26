@@ -1,3 +1,5 @@
 alias vim=nvim
 alias ah-tmux='tmuxp load main'
 alias b=bat
+alias less=most -s
+alias top=htop
