@@ -1,0 +1,2 @@
+alias vim=nvim
+alias ah-tmux='tmuxp load main'

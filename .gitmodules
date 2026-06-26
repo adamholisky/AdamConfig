@@ -4,3 +4,6 @@
 [submodule "oh-my-posh"]
 	path = oh-my-posh
 	url = https://github.com/JanDeDobbeleer/oh-my-posh
+[submodule "zsh/plugins/fzf-tab"]
+	path = zsh/plugins/fzf-tab
+	url = https://github.com/aloxaf/fzf-tab
