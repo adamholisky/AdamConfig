@@ -15,3 +15,15 @@ bold = { family = "FiraCode Nerd Font Mono", style = "Medium" }
 import = [
     "~/.config/alacritty/themes/themes/Google.toml"
 ]
+
+# bindings = [{ <key>, <mods>, <mode>, <command> | <chars> | <action> },]
+# key names --> https://docs.rs/winit/latest/winit/keyboard/enum.NamedKey.html
+[keyboard]
+bindings = [
+	{ key="H", mods="Control", chars="\x1b[D" }, #ctrl + h --> left
+	{ key="J", mods="Control", chars="\x1b[B" }, #ctrl j + --> down
+	{ key="K", mods="Control", chars="\x1b[A" }, #ctrl k + --> up
+	{ key="L", mods="Control", chars="\x1b[C" }, #ctrl l + --> right
+	{ key="F", mods="Control", chars="\x1b[5~" }, #ctrl + --> page up
+	{ key="B", mods="Control", chars="\x1b[6~" }, #ctrl + --> page down
+]

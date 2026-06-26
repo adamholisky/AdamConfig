@@ -1,4 +1,9 @@
 #!/bin/bash
+#
+# Set up the dotfiles in AdamConfig
+#
+# Notes:
+# ln -s <original file> <symbolic-link-file>
 
 #
 # Defines
@@ -24,6 +29,10 @@ do_setup_zsh() {
 	$CONFIG_DIR/zsh/setup-zsh-config.sh
 }
 
+do_setup_most() {
+	ln -s $CONFIG_DIR/singles/mostrc $HOME_DIR/.mostrc
+}
+
 case "$CMD" in
 	all)
 		do_setup_alacritty
@@ -36,6 +45,9 @@ case "$CMD" in
 		;;
 	zsh)
 		do_setup_zsh
+		;;
+	most)
+		do_setup_most
 		;;
 	*)
 		echo "Usage: setup.sh {all|alacritty|tmux|zsh}"

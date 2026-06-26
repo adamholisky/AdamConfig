@@ -6,24 +6,32 @@ export DISABLE_AUTO_TITLE='true'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export MANPAGER="most -s"
 
 # fix the % showing up in tmux
 setopt PROMPT_CR
 setopt PROMPT_SP
 export PROMPT_EOL_MARK=""
 
+#
+# fzf
+#
+autoload -U compinit; compinit
+source /home/adam/AdamConfig/zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
+zstyle ':completion:*' menu no
+
 plugins=(
 	git
-	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/nvm/init-nvm.sh
 source <(fzf --zsh)
-source /home/adam/AdamConfig/zsh/config/binds
-source /home/adam/AdamConfig/zsh/config/alias
 
 eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/singles/adam_theme.omp.json)"
 #eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
+
+source /home/adam/AdamConfig/zsh/config/binds
+source /home/adam/AdamConfig/zsh/config/alias
 
