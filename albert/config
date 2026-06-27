@@ -14,7 +14,8 @@ enabled=false
 profile_path=/home/adam/.config/google-chrome/Default
 
 [commandline]
-enabled=false
+enabled=true
+global_handler_enabled=false
 
 [datetime]
 enabled=true
@@ -34,6 +35,7 @@ enabled=false
 
 [obsidian]
 enabled=true
+trigger="ob "
 
 [snippets]
 enabled=true

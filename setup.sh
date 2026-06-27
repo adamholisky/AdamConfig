@@ -37,6 +37,10 @@ do_setup_albert() {
 	ln -s $CONFIG_DIR/albert $HOME_DIR/.config/albert
 }
 
+do_setup_xfce() {
+	ln -s $CONFIG_DIR/xfce4 $HOME_DIR/.config/xfce4
+}
+
 case "$CMD" in
 	all)
 		do_setup_alacritty
@@ -56,8 +60,11 @@ case "$CMD" in
 	albert)
 		do_setup_albert
 		;;
+	xfce)
+		do_setup_xfce
+		;;
 	*)
-		echo "Usage: setup.sh {all|alacritty|albert|most|tmux|zsh}"
+		echo "Usage: setup.sh {all|alacritty|albert|most|tmux|xfce|zsh}"
 		exit 1
 		;;
 esac
