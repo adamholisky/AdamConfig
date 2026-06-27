@@ -33,6 +33,10 @@ do_setup_most() {
 	ln -s $CONFIG_DIR/singles/mostrc $HOME_DIR/.mostrc
 }
 
+do_setup_albert() {
+	ln -s $CONFIG_DIR/albert $HOME_DIR/.config/albert
+}
+
 case "$CMD" in
 	all)
 		do_setup_alacritty
@@ -49,8 +53,11 @@ case "$CMD" in
 	most)
 		do_setup_most
 		;;
+	albert)
+		do_setup_albert
+		;;
 	*)
-		echo "Usage: setup.sh {all|alacritty|tmux|zsh}"
+		echo "Usage: setup.sh {all|alacritty|albert|most|tmux|zsh}"
 		exit 1
 		;;
 esac

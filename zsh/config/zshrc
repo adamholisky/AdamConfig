@@ -20,18 +20,33 @@ autoload -U compinit; compinit
 source /home/adam/AdamConfig/zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 zstyle ':completion:*' menu no
 
+# 
+# zsh-syntax-highlighting
+#
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# 
+# plugins
+#
 plugins=(
 	git
+	gh
 	zsh-syntax-highlighting
 )
 
+#
+# Post plugin sources
+#
 source $ZSH/oh-my-zsh.sh
 source /usr/share/nvm/init-nvm.sh
 source <(fzf --zsh)
+source /home/adam/AdamConfig/zsh/config/binds
+source /home/adam/AdamConfig/zsh/config/alias
 
+#
+# oh-my-posh theme
+#
 eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/singles/adam_theme.omp.json)"
 #eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
 
-source /home/adam/AdamConfig/zsh/config/binds
-source /home/adam/AdamConfig/zsh/config/alias
 
