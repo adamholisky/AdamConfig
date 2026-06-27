@@ -41,6 +41,10 @@ do_setup_xfce() {
 	ln -s $CONFIG_DIR/xfce4 $HOME_DIR/.config/xfce4
 }
 
+do_setup_nvim() {
+	ln -s $CONFIG_DIR/nvim $HOME_DIR/.config/nvim
+}
+
 case "$CMD" in
 	all)
 		do_setup_alacritty
@@ -63,8 +67,11 @@ case "$CMD" in
 	xfce)
 		do_setup_xfce
 		;;
+	nvim)
+		do_setup_nvim
+		;;
 	*)
-		echo "Usage: setup.sh {all|alacritty|albert|most|tmux|xfce|zsh}"
+		echo "Usage: setup.sh {all|alacritty|albert|most|nvim|tmux|xfce|zsh}"
 		exit 1
 		;;
 esac
