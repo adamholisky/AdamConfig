@@ -10,3 +10,8 @@ windows:
       - cmd: clear
     - shell_comannd:
       - cmd: clear
+- window_name: full
+  layout: tiled
+  panes:
+    - shell_command:
+        - cmd: clear

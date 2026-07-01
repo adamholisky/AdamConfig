@@ -62,6 +62,7 @@
       <property name="&lt;Super&gt;F1" type="string" value="alacritty"/>
       <property name="&lt;Super&gt;F2" type="string" value="google-chrome-stable"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Escape" type="string" value="xfdesktop --menu"/>
+      <property name="&lt;Super&gt;F12" type="string" value="/home/adam/AdamConfig/scripts/toggle-win-obsidian.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

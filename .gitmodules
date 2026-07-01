@@ -7,3 +7,12 @@
 [submodule "zsh/plugins/fzf-tab"]
 	path = zsh/plugins/fzf-tab
 	url = https://github.com/aloxaf/fzf-tab
+[submodule "themes/celestial-gtk-theme"]
+	path = themes/celestial-gtk-theme
+	url = https://github.com/zquestz/celestial-gtk-theme.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/plugins/tmux2k"]
+	path = tmux/plugins/tmux2k
+	url = https://github.com/2KAbhishek/tmux2k.git

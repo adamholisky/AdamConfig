@@ -13,7 +13,6 @@ StartupWMClass=Alacritty
 Actions=New;
 X-Desktop-File-Install-Version=0.28
 X-XFCE-Source=file:///usr/share/applications/Alacritty.desktop
-Path=
 
 [Desktop Action New]
 Name=New Terminal

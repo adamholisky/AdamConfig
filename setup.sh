@@ -17,8 +17,8 @@ CONFIG_DIR=/home/adam/AdamConfig
 CMD=${1:all}
 
 do_setup_tmux() {
-	ln -s $CONFIG_DIR/tmux/tmux.conf $HOME_DIR/.tmux.conf
-	ln -s $CONFIG_DIR/tmuxp/ $HOME_DIR/tmuxp
+	ln -s $CONFIG_DIR/tmux/ $HOME_DIR/.config/tmux
+	ln -s $CONFIG_DIR/tmuxp/ $HOME_DIR/.config/tmuxp
 }
 
 do_setup_alacritty() {
