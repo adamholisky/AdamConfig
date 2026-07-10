@@ -8,8 +8,8 @@ blur = true
 
 [font]
 size = 10.0
-normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
-bold = { family = "FiraCode Nerd Font Mono", style = "Medium" }
+normal = { family = "NotoSans Nerd Font Mono", style = "Regular" }
+bold = { family = "NotoSans Nerd Font Mono", style = "Medium" }
 
 [general]
 import = [

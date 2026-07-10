@@ -5,13 +5,13 @@
   <property name="Notify" type="int" value="1"/>
   <property name="AutoEnableProfiles" type="int" value="3"/>
   <property name="Default" type="empty">
-    <property name="HDMI-1" type="string" value="Hewlett Packard 27&quot;">
+    <property name="eDP-1" type="string" value="Laptop">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="df6245d0323eb167fec456da5ea053c8685407d7"/>
+      <property name="EDID" type="string" value="c22ddd18ec4c372a42725100d7156fe52026c34b"/>
       <property name="DuplicateEDID" type="bool" value="false"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60"/>
-      <property name="ModeFlags" type="uint64" value="5"/>
+      <property name="Resolution" type="string" value="1920x1200"/>
+      <property name="RefreshRate" type="double" value="59.884600128910705"/>
+      <property name="ModeFlags" type="uint64" value="6"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>

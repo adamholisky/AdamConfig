@@ -51,18 +51,6 @@
           </property>
         </property>
       </property>
-      <property name="monitorHDMI-1" type="empty">
-        <property name="workspace0" type="empty">
-          <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="rgba1" type="array">
-            <value type="double" value="0.094222222222222221"/>
-            <value type="double" value="0.10889205219454334"/>
-            <value type="double" value="0.17666666666666667"/>
-            <value type="double" value="1"/>
-          </property>
-        </property>
-      </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">

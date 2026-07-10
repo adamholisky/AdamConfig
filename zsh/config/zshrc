@@ -50,3 +50,6 @@ eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/singles/adam_theme.om
 #eval "$(oh-my-posh init zsh --config /home/adam/AdamConfig/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
 
 
+
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/home/adam/.lmstudio/bin"
