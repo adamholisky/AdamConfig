@@ -12,3 +12,5 @@ vim.opt.smartindent = true
 vim.opt.wrap = true
 
 vim.opt.termguicolors = true
+
+vim.opt.exrc = true
