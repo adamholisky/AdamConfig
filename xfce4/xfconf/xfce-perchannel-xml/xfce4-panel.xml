@@ -80,7 +80,7 @@
     </property>
     <property name="plugin-8" type="string" value="clock">
       <property name="digital-time-format" type="string" value="%l:%M:%S %P"/>
-      <property name="digital-time-font" type="string" value="Noto Sans Mono Light 13"/>
+      <property name="digital-time-font" type="string" value="FiraCode Nerd Font Mono Bold 10"/>
       <property name="digital-layout" type="uint" value="3"/>
       <property name="timezone" type="string" value="America/Chicago"/>
       <property name="digital-date-font" type="string" value="Sans Bold 8"/>
