@@ -5,8 +5,11 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="balenaEtcher"/>
+      <value type="string" value="com.anthropic.Claude"/>
       <value type="string" value="Crash Reporting System"/>
       <value type="string" value="google-chrome"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="Xfce4-notifyd settings"/>
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>
     </property>
@@ -15,4 +18,6 @@
     </property>
   </property>
   <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="notification-log" type="bool" value="true"/>
+  <property name="log-level" type="string" value="always"/>
 </channel>

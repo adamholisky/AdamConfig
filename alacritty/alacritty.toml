@@ -26,6 +26,8 @@ bindings = [
 	{ key="L", mods="Control", chars="\x1b[C" }, #ctrl l + --> right
 	{ key="F", mods="Control", chars="\x1b[5~" }, #ctrl + F --> page up
 	{ key="B", mods="Control", chars="\x1b[6~" }, #ctrl + B --> page down
+	{ key="C", mods="Command", Action="Copy" },
+	{ key="V", mods="Command", Action="Paste" }
 ]
 
 # copied for safe keeping from import above (July 2026)

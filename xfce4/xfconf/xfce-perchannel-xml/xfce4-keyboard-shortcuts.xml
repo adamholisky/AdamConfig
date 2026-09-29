@@ -53,7 +53,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
@@ -63,6 +62,7 @@
       <property name="&lt;Super&gt;F2" type="string" value="google-chrome-stable"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="&lt;Super&gt;F12" type="string" value="/home/adam/AdamConfig/scripts/toggle-win-obsidian.sh"/>
+      <property name="&lt;Super&gt;Escape" type="string" value="xfce4-taskmanager"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -186,9 +186,9 @@
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;slash" type="string" value="hide_window_key"/>
       <property name="&lt;Super&gt;apostrophe" type="string" value="maximize_window_key"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;q" type="string" value="close_window_key"/>
       <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;ISO_Left_Tab" type="string" value="cycle_reverse_windows_key"/>
+      <property name="&lt;Super&gt;w" type="string" value="close_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
