@@ -24,13 +24,19 @@
         <value type="int" value="27"/>
         <value type="int" value="30"/>
         <value type="int" value="6"/>
+<<<<<<< HEAD
         <value type="int" value="7"/>
         <value type="int" value="9"/>
+=======
+        <value type="int" value="9"/>
+        <value type="int" value="13"/>
+        <value type="int" value="11"/>
+>>>>>>> 8cd2cc5bc774a48dfbe9d52e97d2ff497bcc85ce
         <value type="int" value="8"/>
         <value type="int" value="17"/>
-        <value type="int" value="18"/>
+        <value type="int" value="14"/>
         <value type="int" value="10"/>
-        <value type="int" value="22"/>
+        <value type="int" value="7"/>
       </property>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
@@ -83,7 +89,7 @@
     </property>
     <property name="plugin-8" type="string" value="clock">
       <property name="digital-time-format" type="string" value="%l:%M:%S %P"/>
-      <property name="digital-time-font" type="string" value="FiraCode Nerd Font Mono Bold 10"/>
+      <property name="digital-time-font" type="string" value="Liberation Sans Bold 11"/>
       <property name="digital-layout" type="uint" value="3"/>
       <property name="timezone" type="string" value="America/Chicago"/>
       <property name="digital-date-font" type="string" value="Sans Bold 8"/>
@@ -111,16 +117,10 @@
     <property name="plugin-21" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-22" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-12" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-17" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-18" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-27" type="string" value="launcher">
@@ -143,9 +143,20 @@
         <value type="string" value="17828711614.desktop"/>
       </property>
     </property>
+<<<<<<< HEAD
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="known-players" type="string" value="google-chrome"/>
+=======
+    <property name="plugin-9" type="string" value="notification-plugin"/>
+    <property name="plugin-13" type="string" value="battery"/>
+    <property name="plugin-11" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Chrome;google-chrome"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+>>>>>>> 8cd2cc5bc774a48dfbe9d52e97d2ff497bcc85ce
     </property>
   </property>
 </channel>

@@ -8,10 +8,15 @@
       <value type="string" value="com.anthropic.Claude"/>
       <value type="string" value="Crash Reporting System"/>
       <value type="string" value="google-chrome"/>
+<<<<<<< HEAD
       <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="signal"/>
       <value type="string" value="Sunshine"/>
       <value type="string" value="Xfce volume control"/>
+=======
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="Xfce4-notifyd settings"/>
+>>>>>>> 8cd2cc5bc774a48dfbe9d52e97d2ff497bcc85ce
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>
     </property>
@@ -20,4 +25,6 @@
     </property>
   </property>
   <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="notification-log" type="bool" value="true"/>
+  <property name="log-level" type="string" value="always"/>
 </channel>
