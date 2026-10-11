@@ -36,11 +36,11 @@
       <property name="monitorDP-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="image-style" type="int" value="0"/>
-          <property name="color-style" type="int" value="1"/>
+          <property name="color-style" type="int" value="0"/>
           <property name="rgba1" type="array">
-            <value type="double" value="0.13333333333333333"/>
-            <value type="double" value="0.13333333333333333"/>
-            <value type="double" value="0.13333333333333333"/>
+            <value type="double" value="0.094222222222222221"/>
+            <value type="double" value="0.10889205219454334"/>
+            <value type="double" value="0.17666666666666667"/>
             <value type="double" value="1"/>
           </property>
           <property name="rgba2" type="array">

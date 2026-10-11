@@ -5,8 +5,13 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="balenaEtcher"/>
+      <value type="string" value="com.anthropic.Claude"/>
       <value type="string" value="Crash Reporting System"/>
       <value type="string" value="google-chrome"/>
+      <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="signal"/>
+      <value type="string" value="Sunshine"/>
+      <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>
     </property>
