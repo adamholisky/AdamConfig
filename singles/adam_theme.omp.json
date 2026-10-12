@@ -1,5 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "maps": {
+	  "host_name": {
+		  "simulacrum": "💻",
+		  "enterprise": "🚀️",
+		  "republic": "📖️"
+	  }
+  },
   "blocks": [
     {
       "alignment": "left",
