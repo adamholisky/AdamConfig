@@ -4,6 +4,16 @@
     {
       "alignment": "left",
       "segments": [
+		{
+	  	  "foreground": "#77E4F7",
+          "properties": {
+            "style": "agnoster"
+          },
+          "style": "plain",
+          "template": "{{ .HostName }} ",
+          "type": "text"
+
+		},
         {
           "foreground": "#77E4F7",
           "properties": {
